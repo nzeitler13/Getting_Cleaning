@@ -8,7 +8,7 @@ The R code will check for the data being downloaded in the working directory, an
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-THe script will then extract the data from the zip file if the zip is present but the extracted folder is absent.  THe script will then read data located in the X_test,y_test,X_train,y_train,activity_labels.txt and features_info.txt files.  The data is then gathered into a data frame stored as TTint.    The recorded observations means and standard deviations are then extracted to a tidy data set stored as TTfin.  A final tidy data set is generated for the means of each observation over each activity, and stored as fin.  Finnaly the script display the str summary of the TTfin dataset.
+THe script will then extract the data from the zip file if the zip is present but the extracted folder is absent.  THe script will then read data located in the X_test,y_test,X_train,y_train,activity_labels.txt and features_info.txt files.  The data is then gathered into a data frame stored as TTint.    The recorded observations means and standard deviations are then extracted to a tidy data set stored as TTfin.  A final tidy data set is generated for the means of each observation over each activity, and stored as fin.  Finnaly the script display the str summary of the fin dataset.
 
 
 Any observation containing either mean() or std() were extracted and gathered into the TTfin object.
